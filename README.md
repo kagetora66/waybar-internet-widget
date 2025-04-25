@@ -12,8 +12,11 @@ Real-time internet connection monitoring for Waybar
 ```bash
 git clone https://github.com/yourusername/waybar-internet-widget.git
 cp src/internet_status.py ~/.config/waybar/scripts/
-
+```
+## Configuration
+```bash
 #add the follwing to your Waybar config.jsonc
+"modules-right": ["custom/internet", "clock", etc],  // Add to existing modules
 "custom/internet": {
     "exec": "~/.config/waybar/scripts/internet_status.py",
     "return-type": "json"
