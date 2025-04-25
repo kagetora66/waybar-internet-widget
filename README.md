@@ -11,7 +11,7 @@ Real-time internet connection monitoring for Waybar
 ## Installation
 ```bash
 git clone https://github.com/yourusername/waybar-internet-widget.git
-cp src/internet_status.py ~/.config/waybar/scripts/
+cp ./internet_status.py ~/.config/waybar/scripts/
 ```
 ## Configuration
 ```bash
