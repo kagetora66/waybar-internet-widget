@@ -5,6 +5,8 @@ Real-time internet connection monitoring for Waybar
 ![Internet Status Widget Preview](./docs/swappy-20250426_082808.png "Widget display")
 ![Internet Status Widget Preview](./docs/swappy-20250426_133241.png "Widget display")
 ![Internet Status Widget Preview](./docs/swappy-20250503_082207.png "Widget display")
+![Internet Status Widget Preview](./docs/screenshot-2025-07-27-124355.png "Widget display")
+
 ## Features
 - Ping latency display (8.8.8.8)
 - Color-coded status
