@@ -14,7 +14,7 @@ Real-time internet connection monitoring for Waybar
 ```bash
 git clone https://github.com/kagetora66/waybar-internet-widget.git
 sudo chmod +x waybar-internet-widget/internet_status.py
-cp waybar-internet-widget/internet_status.py ~/.config/waybar/scripts/
+cp waybar-internet-widget/internet_status.py ~/.config/waybar/scripts/ (create scripts folder if doesnt exist)
 ```
 ## Configuration
 ```bash
@@ -23,4 +23,4 @@ cp waybar-internet-widget/internet_status.py ~/.config/waybar/scripts/
 "custom/internet": {
     "exec": "~/.config/waybar/scripts/internet_status.py",
     "return-type": "json"
-}
+} #Make sure of validity of the json file!!!
